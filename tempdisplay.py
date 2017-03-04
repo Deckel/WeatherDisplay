@@ -24,7 +24,7 @@ while True:
 
                         # Setting the region data
 
-                        owm = pyowm.OWM('76e347d76143b19be60296232eaaa6e4')
+                        owm = pyowm.OWM('####YOUR OWN PYOOWM KEY HERE######')
                         observation = owm.weather_at_place('canterbury,uk')
                         w = observation.get_weather()
                         temp = w.get_temperature('celsius')
