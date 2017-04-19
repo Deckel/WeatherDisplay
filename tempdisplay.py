@@ -31,7 +31,7 @@ while True:
 
                 # Setting the region data
 
-                owm = pyowm.OWM('76e347d76143b19be60296232eaaa6e4')
+                owm = pyowm.OWM('Your own key here')
                 observation = owm.weather_at_place('miltonkeynes,uk')
                 w = observation.get_weather()
                 temp = w.get_temperature('celsius')
